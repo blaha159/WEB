@@ -16,33 +16,6 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `clanek`
---
-
-DROP TABLE IF EXISTS `clanek`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `clanek` (
-  `ID` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL,
-  `content` text NOT NULL,
-  `schvalen` int NOT NULL,
-  `id_uzivatel` int NOT NULL,
-  UNIQUE KEY `ID` (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `clanek`
---
-
-LOCK TABLES `clanek` WRITE;
-/*!40000 ALTER TABLE `clanek` DISABLE KEYS */;
-INSERT INTO `clanek` VALUES (1,'test','test content',1,1);
-/*!40000 ALTER TABLE `clanek` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `games`
 --
 
@@ -154,29 +127,6 @@ INSERT INTO `users` VALUES (1,'blaha','$2y$10$8bVq5AVqKiGP/hx8ubRn0OLXo6FRUQZvbt
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `uzivatel`
---
-
-DROP TABLE IF EXISTS `uzivatel`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `uzivatel` (
-  `ID` bigint unsigned NOT NULL AUTO_INCREMENT,
-  `jmeno` varchar(255) NOT NULL,
-  UNIQUE KEY `ID` (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `uzivatel`
---
-
-LOCK TABLES `uzivatel` WRITE;
-/*!40000 ALTER TABLE `uzivatel` DISABLE KEYS */;
-INSERT INTO `uzivatel` VALUES (1,'blaha');
-/*!40000 ALTER TABLE `uzivatel` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
