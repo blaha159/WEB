@@ -1,0 +1,6 @@
+<div class="container text-center">
+    <p>
+        Welcome to our website dedicated to hockey tips! Here, you'll find a wealth of information on how to improve your bets, whether you're a beginner just starting out or an experienced player looking to take your skills to the next level.
+        If you're looking to bet on hockey games, there are a few key tips that can help you increase your chances of making successful bets. First and foremost, it's important to stay up-to-date on the latest news and developments in the hockey world. This includes keeping track of team injuries, player statistics, and overall team performance. Additionally, it's a good idea to study the different hockey leagues and teams in order to get a sense of their strengths and weaknesses. Another important tip is to stay disciplined with your betting strategy and avoid letting emotions cloud your judgement. Finally, be sure to shop around for the best odds and lines at different sportsbooks, as this can have a big impact on your overall returns. By following these tips, you can give yourself a better chance of success when betting on hockey games.
+    </p>
+</div>
