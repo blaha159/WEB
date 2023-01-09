@@ -1,0 +1,21 @@
+Semestrální práce z KIV/WEB
+Konference hokejových tipů
+==============
+
+Webová aplikace pro tipy na hokejové zápasy
+
+Instace
+------------
+Do kořenového adresáře webového serveru s podporou PHP a MySQL nahrajte aplikaci do adresáře s názvem např. WEB
+
+Vytvořwe databázi na MySQL serveru, uživatele a heslo pro přístup k databázi. Z přiloženého souboru web.sql vytvořte databázovou strukturu.
+
+Configuration
+-------------
+ Podle přílušného nastavení upravte proměnné k připojení k databázi v souboru config.inc:
+DB_HOST = "host";
+DB_NAME = "database";
+DB_USER = "username";
+DB_PASS = "password";
+
+Nyní můžete aplikaci otestovat na adrese `http://localhost:8000/WEB`
